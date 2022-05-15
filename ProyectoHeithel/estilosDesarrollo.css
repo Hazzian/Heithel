@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+:root{
+    --color3: #6de255;
+    --color4: #44b12e;
+}
+nav{
+    height: 50px;
+    flex: 1;
+    margin-left: 45%;
+    text-decoration: none; 
+}.navi{
+    width: 100%;
+    background: linear-gradient(to right, #bb0808,#c53434d5);
+    display: inline-block;
+}.navi a{
+    color: white;
+    text-decoration: none;
+}nav ul li{
+    color: rgb(255, 255, 255);
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding: 5%;
+    font-size: 17px;
+}.escudin{
+    margin-top: 30px;
+    margin-right: 1%;
+    float: right;
+    height: 50px;
+    width: 50px;
+}.idky > div{
+    font-family: Helvetica;
+    float: left;
+}
+.titulo{
+    
+    background-image: linear-gradient(to right, var(--color3), var(--color4));
+    font-size:36px;
+    height: 500px;
+    width: 30%;
+}.TCuerpo{
+    text-align: center;
+    font-size: 33px;
+    height: 500px;
+    width: 70%;
+    background-color: rgb(40, 87, 141);
+}.TCuerpo p{
+    display: inline-block;
+    margin-top: 50px;
+}
